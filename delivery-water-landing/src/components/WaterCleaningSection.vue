@@ -1,6 +1,6 @@
 <template>
     <v-container fluid ma-0 pa-0>
-        <v-card height="450" class="elevation-0">
+        <v-card height="350" class="elevation-0">
             <v-layout align-center justify-space-around column>
                 <v-img contain :src="require('../assets/cleaning.png')"></v-img>
                 <v-layout justify-space-around>
@@ -11,7 +11,6 @@
                         </v-layout>
                     </v-flex>
                 </v-layout>
-                <v-btn class="my-8" outlined color="primary" rounded>Find more</v-btn>
             </v-layout>
         </v-card>
     </v-container>

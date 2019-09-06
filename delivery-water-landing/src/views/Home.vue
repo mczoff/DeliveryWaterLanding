@@ -4,7 +4,9 @@
         <TypesOfWaterSection/>
         <WaterCleaningSection/>
         <WaterStructureSection/>
-        <ClientsSection/>
+        <!--<ClientsSection/>-->
+        <BuyWaterSection/>
+        <ContactsSection/>
     </v-container>
 </template>
 
@@ -14,9 +16,11 @@ import TypesOfWaterSection from "../components/TypesOfWaterSection";
 import WaterCleaningSection from "../components/WaterCleaningSection";
 import WaterStructureSection from "../components/WaterStructureSection";
 import ClientsSection from "../components/ClientsSection";
+import BuyWaterSection from "../components/BuyWaterSection";
 
 export default {
     components: {
+        BuyWaterSection,
         ClientsSection,
         WaterStructureSection,
         WaterCleaningSection,
