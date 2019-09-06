@@ -1,0 +1,28 @@
+<template>
+    <v-container fluid ma-0 pa-0>
+        <v-card height="450" class="elevation-0">
+            <v-layout align-center justify-space-around column>
+                <v-img contain :src="require('../assets/cleaning.png')"></v-img>
+                <v-layout justify-space-around>
+                    <v-flex md5 xs7>
+                        <v-layout align-center column>
+                            <span class="headline my-5">70% of a person is water</span>
+                            <span>Lorem ipsum pretium eros tlictu proin iullamcorper tempor ante, a fringilla lacus eget. Lorem ipsum pretium eros tlictu proin iullamcorper tempor ante, a fringilla lacus eget. Lorem ipsum pretium eros tlictu proin iullamcorper tempor ante, a fringilla lacus eget</span>
+                        </v-layout>
+                    </v-flex>
+                </v-layout>
+                <v-btn class="my-8" outlined color="primary" rounded>Find more</v-btn>
+            </v-layout>
+        </v-card>
+    </v-container>
+</template>
+
+<script>
+    export default {
+        name: "WaterCleaningSection"
+    }
+</script>
+
+<style scoped>
+
+</style>
