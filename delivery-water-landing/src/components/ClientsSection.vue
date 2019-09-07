@@ -1,8 +1,8 @@
 <template>
-    <v-container>
+    <v-container fluid ma-0 pa-0>
       <v-card height="500" class="elevation-0">
           <v-layout justify-center>
-              <span class="headline my-5">Customer reviews</span>
+              <span class="headline font-weight-light my-5 accent--text">Customer reviews</span>
           </v-layout>
           <v-layout align-space-around column>
               <v-layout justify-center>
@@ -25,11 +25,11 @@
                                      <v-layout justify-space-around>
                                          <v-flex xs8>
                                              <v-layout column>
-                                                 <span class="my-5">{{slide.text}}</span>
+                                                 <span class="my-5 accent--text">{{slide.text}}</span>
                                                  <br>
-                                                 <span class="mt-3 title">{{slide.name}}</span>
+                                                 <span class="mt-3 accent--text title">{{slide.name}}</span>
                                                  <br>
-                                                 <a :href="slide.ref">{{slide.refText}}</a>
+                                                 <a class="primary--text" :href="slide.ref">{{slide.refText}}</a>
                                              </v-layout>
                                          </v-flex>
                                      </v-layout>

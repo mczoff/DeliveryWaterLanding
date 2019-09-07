@@ -4,9 +4,8 @@
         <TypesOfWaterSection/>
         <WaterCleaningSection/>
         <WaterStructureSection/>
-        <!--<ClientsSection/>-->
+        <ClientsSection/>
         <BuyWaterSection/>
-        <ContactsSection/>
     </v-container>
 </template>
 

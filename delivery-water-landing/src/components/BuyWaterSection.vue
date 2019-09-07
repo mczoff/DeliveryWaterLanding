@@ -17,7 +17,7 @@
                                            </v-layout>
                                     </v-layout>
                                     <v-layout class="my-4" align-center column>
-                                        <span v-for="(capability, i) in offer.capabilities" :key="i">{{capability}}</span>
+                                        <span class="accent--text" v-for="(capability, i) in offer.capabilities" :key="i">{{capability}}</span>
                                     </v-layout>
 
                                     <v-btn class="mx-6 mt-6" outlined color="primary" rounded>Purchase</v-btn>

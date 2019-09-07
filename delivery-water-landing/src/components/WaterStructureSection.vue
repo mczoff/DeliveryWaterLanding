@@ -4,7 +4,7 @@
             <v-layout column>
                 <v-layout fill-height align-center>
                     <v-layout justify-end>
-                        <span>2 oxygen atoms</span>
+                        <span class="accent--text">2 oxygen atoms</span>
                     </v-layout>
 
                     <v-flex md3 xs6>
@@ -12,7 +12,7 @@
                     </v-flex>
 
                     <v-layout>
-                        <span>1 hydrogen atoms</span>
+                        <span class="accent--text">1 hydrogen atoms</span>
                     </v-layout>
                 </v-layout>
                 <v-layout justify-center>

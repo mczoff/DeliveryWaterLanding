@@ -12,9 +12,9 @@
                                     </v-layout>
                                 </v-flex>
                                 <v-flex xs7>
-                                    <span class="title">{{tile.header}}</span>
+                                    <span class="title accent--text">{{tile.header}}</span>
                                     <br>
-                                    <span>{{tile.text}}</span>
+                                    <span class="accent--text">{{tile.text}}</span>
                                 </v-flex>
                             </v-layout>
                         </v-flex>

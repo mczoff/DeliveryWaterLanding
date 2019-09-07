@@ -6,8 +6,8 @@
                 <v-layout justify-space-around>
                     <v-flex md5 xs7>
                         <v-layout align-center column>
-                            <span class="headline my-5">70% of a person is water</span>
-                            <span>Lorem ipsum pretium eros tlictu proin iullamcorper tempor ante, a fringilla lacus eget. Lorem ipsum pretium eros tlictu proin iullamcorper tempor ante, a fringilla lacus eget. Lorem ipsum pretium eros tlictu proin iullamcorper tempor ante, a fringilla lacus eget</span>
+                            <span class="accent--text headline my-5">70% of a person is water</span>
+                            <span class="accent--text">Lorem ipsum pretium eros tlictu proin iullamcorper tempor ante, a fringilla lacus eget. Lorem ipsum pretium eros tlictu proin iullamcorper tempor ante, a fringilla lacus eget. Lorem ipsum pretium eros tlictu proin iullamcorper tempor ante, a fringilla lacus eget</span>
                         </v-layout>
                     </v-flex>
                 </v-layout>
