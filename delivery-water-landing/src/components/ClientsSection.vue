@@ -1,5 +1,5 @@
 <template>
-    <v-container fluid ma-0 pa-0>
+    <v-container fluid ma-0 pa-0 id="customers">
       <v-card height="500" class="elevation-0">
           <v-layout justify-center>
               <span class="headline font-weight-light my-5 accent--text">Customer reviews</span>

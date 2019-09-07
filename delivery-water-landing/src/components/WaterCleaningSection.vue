@@ -1,5 +1,5 @@
 <template>
-    <v-container fluid ma-0 pa-0>
+    <v-container fluid ma-0 pa-0 id="specification">
         <v-card height="350" class="elevation-0">
             <v-layout align-center justify-space-around column>
                 <v-img contain :src="require('../assets/cleaning.png')"></v-img>

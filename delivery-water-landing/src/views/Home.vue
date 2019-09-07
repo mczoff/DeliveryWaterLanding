@@ -1,7 +1,7 @@
 <template>
     <v-container fluid ma-0 pa-0>
         <LogoSection />
-        <TypesOfWaterSection/>
+        <TypesOfWaterSection />
         <WaterCleaningSection/>
         <WaterStructureSection/>
         <ClientsSection/>

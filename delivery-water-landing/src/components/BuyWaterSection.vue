@@ -1,5 +1,5 @@
 <template>
-    <v-container fluid ma-0 pa-0>
+    <v-container fluid ma-0 pa-0 id="goods">
         <v-card height="500" class="elevation-0">
             <v-layout justify-space-around>
                 <v-flex md10 xs11>
@@ -9,18 +9,18 @@
                                 <v-layout fill-height align-space-around column>
                                     <v-layout justify-center>
                                         <v-img contain max-width="100" max-height="30" :src="require('../assets/offerlogo.png')"></v-img>
-                                        <span class="headline">{{offer.tag}}</span>
+                                        <span class="headline accent--text">{{offer.tag}}</span>
                                     </v-layout>
                                     <v-layout class="my-4" justify-center>
-                                           <v-layout v-for="(offerImage, i) in offer.images" :key="i" >
-                                               <v-img contain height="100" width="45" :src="offerImage"></v-img>
-                                           </v-layout>
+                                       <v-layout v-for="(offerImage, i) in offer.images" :key="i" >
+                                           <v-img contain height="100" width="45" :src="offerImage"></v-img>
+                                       </v-layout>
                                     </v-layout>
                                     <v-layout class="my-4" align-center column>
                                         <span class="accent--text" v-for="(capability, i) in offer.capabilities" :key="i">{{capability}}</span>
                                     </v-layout>
 
-                                    <v-btn class="mx-6 mt-6" outlined color="primary" rounded>Purchase</v-btn>
+                                    <v-btn @click="addOrderToBasket(offer)" class="mx-6 mt-6" outlined color="primary" rounded>Purchase</v-btn>
                                     <v-layout justify-center align-center>
                                         <span class="overline">from {{offer.price}}$</span>
                                     </v-layout>
@@ -40,6 +40,7 @@
         data: () => ({
             offers: [
                 {
+                    id: 0,
                     tag: 'Lite',
                     images: [
                         require('../assets/waterbottle.png')
@@ -48,6 +49,7 @@
                     price: 0.50
                 },
                 {
+                    id: 1,
                     tag: 'Pro',
                     images: [
                         require('../assets/waterbottle.png'),
@@ -57,6 +59,7 @@
                     price: 1.00
                 },
                 {
+                    id: 2,
                     tag: 'Team',
                     images: [
                         require('../assets/waterbottle.png'),
@@ -67,7 +70,12 @@
                     price: 2.99
                 }
             ]
-        })
+        }),
+        methods: {
+            addOrderToBasket(offer) {
+                this.$store.dispatch('addOrder', offer)
+            }
+        }
     }
 </script>
 
