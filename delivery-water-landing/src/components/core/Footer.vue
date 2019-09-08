@@ -9,8 +9,8 @@
                                <v-img max-width="150" max-height="35" :src="require('../../assets/inlogo.png')" contain></v-img>
                            </v-layout>
                        </v-flex>
-                       <v-flex xs4>
-                           <v-layout  justify-center justify-space-around>
+                       <v-flex class="hidden-sm-and-down" xs4>
+                           <v-layout justify-center justify-space-around>
                                <v-btn text class="white--text" v-for="(link, i) in links" :key="i">
                                    {{link.text}}
                                </v-btn>

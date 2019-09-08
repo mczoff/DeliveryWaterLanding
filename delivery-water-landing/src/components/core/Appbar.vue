@@ -2,21 +2,22 @@
     <v-container fluid ma-0 pa-0>
         <v-app-bar app elevate-on-scroll>
             <v-layout justify-space-around>
-                <v-flex md2 xs2>
-                    <v-img max-width="150" max-height="38" :src="require('../../assets/logo.png')"></v-img>
-                </v-flex>
+                <v-img max-width="150" max-height="38" :src="require('../../assets/logo.png')"></v-img>
 
                 <v-flex md4 xs7>
                     <v-layout justify-space-around>
-                        <v-btn to="#watertypes" class="mx-1" color="primary" text>
-                            Types of water
-                        </v-btn>
-                        <v-btn to="#specification" class="mx-1" color="primary" text>
-                            Specification
-                        </v-btn>
-                        <v-btn to="#customers" class="mx-1" color="primary" text>
-                            Customers
-                        </v-btn>
+                        <div class="hidden-sm-and-down">
+                            <v-btn to="#watertypes" class="mx-1" color="primary" text>
+                                Types of water
+                            </v-btn>
+                            <v-btn to="#specification" class="mx-1" color="primary" text>
+                                Specification
+                            </v-btn>
+                            <v-btn to="#customers" class="mx-1" color="primary" text>
+                                Customers
+                            </v-btn>
+                        </div>
+
                         <v-btn @click="buyNowClick" class="mx-1 primary" color="white" text rounded>
                             Buy now
                         </v-btn>

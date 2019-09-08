@@ -1,12 +1,12 @@
 <template>
     <v-container fluid ma-0 pa-0 id="customers">
-      <v-card height="500" class="elevation-0">
+      <v-card class="pb-12 elevation-0">
           <v-layout justify-center>
               <span class="headline font-weight-light my-5 accent--text">Customer reviews</span>
           </v-layout>
           <v-layout align-space-around column>
               <v-layout justify-center>
-                  <v-flex md4 xs8>
+                  <v-flex md4 sm8 xs10>
                       <v-carousel
                               hide-delimiter-background
                               show-arrows-on-hover
@@ -14,7 +14,7 @@
                               delimiter-icon="mdi-minus"
                               next-icon="mdi-chevron-right"
                               prev-icon="mdi-chevron-left"
-                              height="300">
+                              height="350">
                           <v-carousel-item
                               v-for="(slide, i) in slides"
                               :key="i"

@@ -1,10 +1,10 @@
 <template>
     <v-container fluid ma-0 pa-0 id="goods">
-        <v-card height="500" class="elevation-0">
+        <v-card class="py-12 elevation-0">
             <v-layout justify-space-around>
-                <v-flex md10 xs11>
-                    <v-layout justify-space-around>
-                        <v-flex md2 xs3 v-for="offer in offers" :key="offer.tag">
+                <v-flex md9 xs10 sm11>
+                    <v-layout row wrap justify-space-around>
+                        <v-flex v-for="offer in offers" :key="offer.tag">
                             <v-card height="400" class="elevation-0">
                                 <v-layout fill-height align-space-around column>
                                     <v-layout justify-center>
@@ -12,7 +12,7 @@
                                         <span class="headline accent--text">{{offer.tag}}</span>
                                     </v-layout>
                                     <v-layout class="my-4" justify-center>
-                                       <v-layout v-for="(offerImage, i) in offer.images" :key="i" >
+                                       <v-layout justify-center v-for="(offerImage, i) in offer.images" :key="i" >
                                            <v-img contain height="100" width="45" :src="offerImage"></v-img>
                                        </v-layout>
                                     </v-layout>

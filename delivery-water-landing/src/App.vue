@@ -3,7 +3,9 @@
         <Appbar/>
         <v-content>
             <router-view/>
+            <Footer/>
         </v-content>
+
         <div class="text-center">
             <v-snackbar
                     color="primary"
@@ -21,7 +23,6 @@
                 </v-btn>
             </v-snackbar>
         </div>
-        <Footer/>
     </v-app>
 </template>
 
