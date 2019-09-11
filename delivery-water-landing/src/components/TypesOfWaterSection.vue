@@ -1,9 +1,9 @@
 <template>
     <v-container fluid ma-0 pa-0 id="watertypes">
-        <v-card height="550"  class="elevation-0">
+        <v-card class="py-12 elevation-0">
             <v-layout justify-end column>
-                <v-layout row wrap justify-space-around>
-                    <v-flex class="ma-5" v-for="tile in tiles" :key="tile.header" md3 xs5>
+                <v-layout wrap justify-space-around>
+                    <v-flex class="ma-5" v-for="tile in tiles" :key="tile.header" md3 sm5 xs10>
                         <v-layout justify-space-between>
                             <v-flex xs3>
                                 <v-layout fill-height align-center>
@@ -19,7 +19,7 @@
                     </v-flex>
                 </v-layout>
                 <v-layout justify-center>
-                    <v-btn class="ma-12 primary" color="white" text rounded>
+                    <v-btn class="ma-5 primary" color="white" text rounded>
                         Compare now
                     </v-btn>
                 </v-layout>

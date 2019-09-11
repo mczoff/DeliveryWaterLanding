@@ -5,6 +5,7 @@
         <WaterCleaningSection/>
         <WaterStructureSection/>
         <ClientsSection/>
+        <v-divider/>
         <BuyWaterSection/>
     </v-container>
 </template>

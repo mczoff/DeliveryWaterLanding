@@ -11,8 +11,6 @@ export default new Router({
     scrollBehavior: (to, from, savedPosition) => {
         let scrollTo = 0
 
-        console.log(to)
-        console.log(savedPosition)
         if (to.hash) {
             scrollTo = to.hash
         } else if (savedPosition) {

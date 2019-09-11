@@ -1,26 +1,30 @@
 <template>
     <v-container fluid ma-0 pa-0 id="goods">
-        <v-card height="500" class="elevation-0">
+        <v-card class="py-12 elevation-0">
             <v-layout justify-space-around>
-                <v-flex md10 xs11>
-                    <v-layout justify-space-around>
-                        <v-flex md2 xs3 v-for="offer in offers" :key="offer.tag">
+                <v-flex md6 xs10 sm11>
+                    <v-layout row wrap justify-space-around>
+                        <v-flex v-for="offer in offers" :key="offer.tag">
                             <v-card height="400" class="elevation-0">
                                 <v-layout fill-height align-space-around column>
                                     <v-layout justify-center>
                                         <v-img contain max-width="100" max-height="30" :src="require('../assets/offerlogo.png')"></v-img>
                                         <span class="headline accent--text">{{offer.tag}}</span>
                                     </v-layout>
-                                    <v-layout class="my-4" justify-center>
-                                       <v-layout v-for="(offerImage, i) in offer.images" :key="i" >
-                                           <v-img contain height="100" width="45" :src="offerImage"></v-img>
-                                       </v-layout>
+                                    <v-layout class="my-4" justify-space-around>
+                                        <v-flex xs8>
+                                            <v-layout>
+                                                <v-img  v-for="(offerImage, i) in offer.images" :key="i" contain height="100" width="45" :src="offerImage"></v-img>
+                                            </v-layout>
+                                        </v-flex>
                                     </v-layout>
                                     <v-layout class="my-4" align-center column>
                                         <span class="accent--text" v-for="(capability, i) in offer.capabilities" :key="i">{{capability}}</span>
                                     </v-layout>
 
-                                    <v-btn @click="addOrderToBasket(offer)" class="mx-6 mt-6" outlined color="primary" rounded>Purchase</v-btn>
+                                   <v-layout justify-center>
+                                       <v-btn @click="addOrderToBasket(offer)" class="mx-6 mt-6" outlined color="primary" rounded>Purchase</v-btn>
+                                   </v-layout>
                                     <v-layout justify-center align-center>
                                         <span class="overline">from {{offer.price}}$</span>
                                     </v-layout>
