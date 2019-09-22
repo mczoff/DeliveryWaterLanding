@@ -7,13 +7,12 @@ api.getAll = (Order) => (req, res) => {
         if (!orders)
             res.status(401).send({ success: false, message: 'Failed.'});
         else {
-            res.status(200).json({ success: true, message: 'Blanks centers was received', blanks: orders })
+            res.status(200).json({ success: true, message: 'Orders centers was received', orders: orders })
         }
     })
 }
 
 api.store = (Order) => (req, res) => {
-    console.log('asd')
     const order = new Order({
         firstName: req.body.firstName,
         middleName: req.body.middleName,

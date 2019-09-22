@@ -21,7 +21,6 @@
                                     <v-layout class="my-4" align-center column>
                                         <span class="accent--text" v-for="(capability, i) in offer.capabilities" :key="i">{{capability}}</span>
                                     </v-layout>
-
                                    <v-layout justify-center>
                                        <v-btn @click="addOrderToBasket(offer)" class="mx-6 mt-6" outlined color="primary" rounded>Purchase</v-btn>
                                    </v-layout>
