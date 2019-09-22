@@ -1,3 +1,5 @@
+import axios from 'axios'
+
 export default {
     state: {
         orders: []
@@ -42,6 +44,19 @@ export default {
             const newOrders = state.orders.filter(function(item){
                 return item.id !== order.id;
             });
+
+            commit('setOrders', newOrders)
+        },
+        sendOrder({state, commit}, userInformation) {
+            axios.post("localhost:3000/api/orders", {
+                firstName: userInformation.firstName,
+                middleName: userInformation.middleName,
+                lastName: userInformation.lastName,
+                email: userInformation.email,
+                phone: userInformation.phone,
+                features: userInformation.features,
+                goods: userInformation.goods
+            })
 
             commit('setOrders', newOrders)
         }

@@ -1,10 +1,17 @@
 const mongoose = require('mongoose')
 
 const Schema = mongoose.Schema({
-    name: {
+    tag: {
         type: String,
-        unique: true,
-        required: true
+    },
+    countImages: {
+        type: Number,
+    },
+    capabilities: {
+        type: Array,
+    },
+    price: {
+        type: Number,
     }
 })
 

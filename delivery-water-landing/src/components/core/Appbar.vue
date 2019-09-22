@@ -124,21 +124,21 @@
                             <v-layout class="mt-4" justify-space-around>
                                 <v-flex xs3>
                                     <v-text-field
-                                            label="Legal first name*"
+                                            label="First name*"
                                             required
                                     >
                                     </v-text-field>
                                 </v-flex>
                                 <v-flex xs3>
                                     <v-text-field
-                                            label="Legal middle name*"
+                                            label="Middle name*"
                                             required
                                     >
                                     </v-text-field>
                                 </v-flex>
                                 <v-flex xs3>
                                     <v-text-field
-                                            label="Legal last name*"
+                                            label="Last name*"
                                             required
                                     ></v-text-field>
                                 </v-flex>
@@ -146,12 +146,12 @@
                             <v-layout class="mt-4" justify-space-around>
                                 <v-flex xs5>
                                     <v-text-field
-                                            label="Email*"
+                                            label="Email"
                                     ></v-text-field>
                                 </v-flex>
                                 <v-flex xs5>
                                     <v-text-field
-                                            label="Phone*"
+                                            label="Phone"
                                     ></v-text-field>
                                 </v-flex>
                             </v-layout>
@@ -228,11 +228,11 @@
                                 </v-checkbox>
                             </v-layout>
                             <v-layout align-center class="mt-5" justify-space-around>
-                                <v-btn class="mt-4 mb-1" @click.stop="dialog = false" outlined color="primary" rounded>
+                                <v-btn class="mt-4 mb-1" @click.stop="buyDialog = false" outlined color="primary" rounded>
                                     Cancel
                                 </v-btn>
 
-                                <v-btn class="mt-4 mb-1 primary" @click="" color="white" text rounded>
+                                <v-btn class="mt-4 mb-1 primary" @click="buyWater" color="white" text rounded>
                                     Accept
                                 </v-btn>
                             </v-layout>
@@ -332,6 +332,10 @@
                 }
 
                 this.showMenu = true;
+            },
+            buyWater() {
+                //TODO: Send info
+                //this.$store.dispatch('sendOrder', order)
             },
             deleteOrder(order) {
                 this.$store.dispatch('deleteOrder', order)
