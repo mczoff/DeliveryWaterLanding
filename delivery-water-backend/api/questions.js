@@ -14,10 +14,10 @@ api.getAll = (Question) => (req, res) => {
 
 api.store = (Question) => (req, res) => {
     const question = new Question({
-        name: req.body.firstName,
-        email: req.body.middleName,
-        phone: req.body.lastName,
-        text: req.body.email,
+        name: req.body.name,
+        email: req.body.email,
+        phone: req.body.phone,
+        text: req.body.text,
     });
 
     question.save(error => {
