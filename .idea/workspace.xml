@@ -1,112 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c9f11b5-6963-4ac1-baf6-1c9a256dc688" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
+    <list default="true" id="9c9f11b5-6963-4ac1-baf6-1c9a256dc688" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/delivery-water-landing/src/store/questions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-water-backend/api/questions.js" beforeDir="false" afterPath="$PROJECT_DIR$/delivery-water-backend/api/questions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-water-backend/config/database.js" beforeDir="false" afterPath="$PROJECT_DIR$/delivery-water-backend/config/database.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-water-backend/routes/questions.js" beforeDir="false" afterPath="$PROJECT_DIR$/delivery-water-backend/routes/questions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-water-landing/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/delivery-water-landing/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-water-landing/src/components/core/Appbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/delivery-water-landing/src/components/core/Appbar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-water-landing/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/delivery-water-landing/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-water-landing/src/store/orders.js" beforeDir="false" afterPath="$PROJECT_DIR$/delivery-water-landing/src/store/orders.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/delivery-water-backend/routes/orders.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="1" selection-end-line="10" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/delivery-water-backend/routes/offers.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/delivery-water-landing/src/components/BuyWaterSection.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/delivery-water-landing/src/components/core/Appbar.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="333" column="37" selection-start-line="333" selection-start-column="37" selection-end-line="333" selection-end-column="37" />
-              <folding>
-                <element signature="n#v-menu#0;n#v-layout#0;n#v-flex#1;n#v-layout#0;n#v-flex#0;n#v-layout#0;n#v-app-bar#0;n#v-container#0;n#template#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/delivery-water-backend/routes/questions.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/delivery-water-backend/api/orders.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/delivery-water-backend/api/offer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="63" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/delivery-water-backend/config/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/delivery-water-backend/models/order.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/delivery-water-backend/models/offer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -119,138 +29,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/delivery-water-landing/src/components/HelloWorld.vue" />
-        <option value="$PROJECT_DIR$/delivery-water-landing/src/components/ClientSections.vue" />
-        <option value="$PROJECT_DIR$/delivery-water-landing/src/components/ContactsSection.vue" />
-        <option value="$PROJECT_DIR$/delivery-water-landing/src/plugins/vuetify.js" />
-        <option value="$PROJECT_DIR$/delivery-water-landing/src/plugins/vuex.js" />
-        <option value="$PROJECT_DIR$/delivery-water-landing/src/store.js" />
-        <option value="$PROJECT_DIR$/delivery-water-landing/src/main.js" />
-        <option value="$PROJECT_DIR$/delivery-water-landing/src/store/index.js" />
-        <option value="$PROJECT_DIR$/delivery-water-landing/src/store/shared.js" />
-        <option value="$PROJECT_DIR$/delivery-water-landing/src/components/LogoSection.vue" />
-        <option value="$PROJECT_DIR$/delivery-water-landing/src/components/WaterCleaningSection.vue" />
-        <option value="$PROJECT_DIR$/delivery-water-landing/src/App.vue" />
-        <option value="$PROJECT_DIR$/delivery-water-landing/src/components/WaterStructureSection.vue" />
-        <option value="$PROJECT_DIR$/delivery-water-landing/src/components/TypesOfWaterSection.vue" />
-        <option value="$PROJECT_DIR$/delivery-water-landing/src/components/ClientsSection.vue" />
-        <option value="$PROJECT_DIR$/delivery-water-landing/src/views/Home.vue" />
-        <option value="$PROJECT_DIR$/delivery-water-landing/src/router.js" />
-        <option value="$PROJECT_DIR$/delivery-water-landing/src/components/core/Footer.vue" />
-        <option value="$PROJECT_DIR$/delivery-water-landing/public/index.html" />
-        <option value="$PROJECT_DIR$/delivery-water-backend/routes/questiions.js" />
-        <option value="$PROJECT_DIR$/delivery-water-backend/config/index.js" />
-        <option value="$PROJECT_DIR$/delivery-water-backend/models/index.js" />
-        <option value="$PROJECT_DIR$/delivery-water-backend/models/orders.js" />
-        <option value="$PROJECT_DIR$/delivery-water-backend/app.js" />
-        <option value="$PROJECT_DIR$/delivery-water-backend/config/database.js" />
-        <option value="$PROJECT_DIR$/delivery-water-backend/package.json" />
-        <option value="$PROJECT_DIR$/delivery-water-backend/index.js" />
-        <option value="$PROJECT_DIR$/delivery-water-backend/config/app.js" />
-        <option value="$PROJECT_DIR$/delivery-water-backend/routes/orders.js" />
-        <option value="$PROJECT_DIR$/delivery-water-backend/models/offer.js" />
-        <option value="$PROJECT_DIR$/delivery-water-landing/src/components/BuyWaterSection.vue" />
-        <option value="$PROJECT_DIR$/delivery-water-backend/routes/offers.js" />
-        <option value="$PROJECT_DIR$/delivery-water-backend/api/offer.js" />
-        <option value="$PROJECT_DIR$/delivery-water-backend/api/orders.js" />
-        <option value="$PROJECT_DIR$/delivery-water-backend/models/question.js" />
-        <option value="$PROJECT_DIR$/delivery-water-backend/api/questions.js" />
-        <option value="$PROJECT_DIR$/delivery-water-backend/routes/questions.js" />
-        <option value="$PROJECT_DIR$/delivery-water-landing/src/store/orders.js" />
-        <option value="$PROJECT_DIR$/delivery-water-landing/src/components/core/Appbar.vue" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="616" />
-    <option name="y" value="-17" />
-    <option name="width" value="960" />
-    <option name="height" value="1040" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="DeliveryWaterLanding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DeliveryWaterLanding" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DeliveryWaterLanding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DeliveryWaterLanding" type="462c0819:PsiDirectoryNode" />
-              <item name="delivery-water-backend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DeliveryWaterLanding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DeliveryWaterLanding" type="462c0819:PsiDirectoryNode" />
-              <item name="delivery-water-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DeliveryWaterLanding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DeliveryWaterLanding" type="462c0819:PsiDirectoryNode" />
-              <item name="delivery-water-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DeliveryWaterLanding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DeliveryWaterLanding" type="462c0819:PsiDirectoryNode" />
-              <item name="delivery-water-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DeliveryWaterLanding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DeliveryWaterLanding" type="462c0819:PsiDirectoryNode" />
-              <item name="delivery-water-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DeliveryWaterLanding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DeliveryWaterLanding" type="462c0819:PsiDirectoryNode" />
-              <item name="delivery-water-landing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DeliveryWaterLanding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DeliveryWaterLanding" type="462c0819:PsiDirectoryNode" />
-              <item name="delivery-water-landing" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DeliveryWaterLanding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DeliveryWaterLanding" type="462c0819:PsiDirectoryNode" />
-              <item name="delivery-water-landing" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DeliveryWaterLanding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DeliveryWaterLanding" type="462c0819:PsiDirectoryNode" />
-              <item name="delivery-water-landing" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DeliveryWaterLanding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DeliveryWaterLanding" type="462c0819:PsiDirectoryNode" />
-              <item name="delivery-water-landing" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
-  </component>
+  <component name="ProjectId" id="1TOtjwKiVEQnGqnNZ4pfixUbhow" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -303,294 +82,26 @@
       <workItem from="1568754236186" duration="2648000" />
       <workItem from="1568800431252" duration="601000" />
       <workItem from="1568802922154" duration="69000" />
+      <workItem from="1573343109224" duration="136000" />
+      <workItem from="1573379752636" duration="518000" />
+      <workItem from="1573398069546" duration="5012000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73825000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <layout>
-      <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.12118019" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.32329988" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="2" />
-      <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" weight="0.32887402" />
-      <window_info anchor="bottom" id="Run" order="6" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/delivery-water-landing/src/components/HelloWorld.vue" />
-    <entry file="file://$PROJECT_DIR$/delivery-water-landing/src/components/ContactsSection.vue" />
-    <entry file="file://$PROJECT_DIR$/delivery-water-landing/src/plugins/vuetify.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/delivery-water-landing/src/plugins/vuex.js" />
-    <entry file="file://$PROJECT_DIR$/delivery-water-landing/src/store.js" />
-    <entry file="file://$PROJECT_DIR$/delivery-water-landing/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/delivery-water-landing/src/store/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/delivery-water-landing/src/components/WaterCleaningSection.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/delivery-water-landing/src/components/WaterStructureSection.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/delivery-water-landing/src/components/LogoSection.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/delivery-water-landing/src/views/About.vue" />
-    <entry file="file://$PROJECT_DIR$/delivery-water-landing/src/components/core/Footer.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="989">
-          <caret line="60" column="30" selection-start-line="60" selection-start-column="30" selection-end-line="60" selection-end-column="30" />
-          <folding>
-            <element signature="n#v-dialog#0;n#v-layout#1;n#v-container#0;n#v-footer#0;n#template#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/delivery-water-landing/src/router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/delivery-water-landing/src/views/Home.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/delivery-water-landing/src/components/TypesOfWaterSection.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-          <folding>
-            <element signature="n#v-btn#0;n#v-layout#1;n#v-layout#0;n#v-card#0;n#v-container#0;n#template#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/delivery-water-landing/src/components/ClientsSection.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/delivery-water-landing/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/delivery-water-backend/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/delivery-water-backend/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/delivery-water-backend/node_modules/module-alias/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/delivery-water-backend/config/database.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="70" selection-start-line="8" selection-start-column="70" selection-end-line="8" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/delivery-water-backend/config/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/delivery-water-backend/models/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/delivery-water-backend/api/questions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/delivery-water-landing/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/delivery-water-landing/src/store/shared.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="20" column="9" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="20" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/delivery-water-landing/src/store/orders.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="50" column="17" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/delivery-water-backend/models/question.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/delivery-water-backend/routes/orders.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/delivery-water-backend/routes/offers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/delivery-water-landing/src/components/BuyWaterSection.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/delivery-water-backend/routes/questions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/delivery-water-backend/api/orders.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/delivery-water-backend/api/offer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="63" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/delivery-water-backend/config/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/delivery-water-backend/models/order.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/delivery-water-backend/models/offer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/delivery-water-landing/src/components/core/Appbar.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="333" column="37" selection-start-line="333" selection-start-column="37" selection-end-line="333" selection-end-column="37" />
-          <folding>
-            <element signature="n#v-menu#0;n#v-layout#0;n#v-flex#1;n#v-layout#0;n#v-flex#0;n#v-layout#0;n#v-app-bar#0;n#v-container#0;n#template#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

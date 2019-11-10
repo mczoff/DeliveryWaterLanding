@@ -95,7 +95,7 @@
                                         </v-container>
                                     </v-card>
                                 </v-menu>
-                                <v-btn small icon @click.sync="helpDialog = true" class="mx-3">
+                                <v-btn small icon @click="helpDialog = true" class="mx-3">
                                     <v-icon class="primary--text">mdi-help</v-icon>
                                 </v-btn>
                             </v-layout>
@@ -126,6 +126,7 @@
                                     <v-text-field
                                             label="First name*"
                                             required
+                                            v-model="order.firstName"
                                     >
                                     </v-text-field>
                                 </v-flex>
@@ -133,6 +134,7 @@
                                     <v-text-field
                                             label="Middle name*"
                                             required
+                                            v-model="order.middleName"
                                     >
                                     </v-text-field>
                                 </v-flex>
@@ -140,6 +142,7 @@
                                     <v-text-field
                                             label="Last name*"
                                             required
+                                            v-model="order.lastName"
                                     ></v-text-field>
                                 </v-flex>
                             </v-layout>
@@ -147,11 +150,13 @@
                                 <v-flex xs5>
                                     <v-text-field
                                             label="Email"
+                                            v-model="order.email"
                                     ></v-text-field>
                                 </v-flex>
                                 <v-flex xs5>
                                     <v-text-field
                                             label="Phone"
+                                            v-model="order.phone"
                                     ></v-text-field>
                                 </v-flex>
                             </v-layout>
@@ -167,6 +172,7 @@
                                     <v-autocomplete
                                             :items="['Girl driver', 'A lot of little bottles']"
                                             label="Delivery features"
+                                            v-model="order.features"
                                             multiple
                                     ></v-autocomplete>
                                 </v-flex>
@@ -261,6 +267,7 @@
                                     <v-text-field
                                             label="First name*"
                                             required
+                                            v-model="question.name"
                                     >
                                     </v-text-field>
                                 </v-flex>
@@ -269,11 +276,13 @@
                                 <v-flex xs5>
                                     <v-text-field
                                             label="Email*"
+                                            v-model="question.email"
                                     ></v-text-field>
                                 </v-flex>
                                 <v-flex xs5>
                                     <v-text-field
                                             label="Phone*"
+                                            v-model="question.phone"
                                     ></v-text-field>
                                 </v-flex>
                             </v-layout>
@@ -281,6 +290,7 @@
                                 <v-flex xs11>
                                     <v-textarea
                                             label="Question"
+                                            v-model="question.text"
                                             counter
                                             outlined
                                             full-width
@@ -294,7 +304,7 @@
                                     Cancel
                                 </v-btn>
 
-                                <v-btn class="mt-4 mb-1 primary" @click="" color="white" text rounded>
+                                <v-btn class="mt-4 mb-1 primary" @click="sendQuestion" color="white" text rounded>
                                     Send
                                 </v-btn>
                             </v-layout>
@@ -310,6 +320,20 @@
     export default {
         name: "Appbar",
         data: () => ({
+            question: {
+                name: '',
+                email: '',
+                phone: '',
+                text: ''
+            },
+            order: {
+                firstName: "",
+                middleName: "",
+                lastName: "",
+                email: "",
+                phone: "",
+                features: []
+            },
             checkboxPolicy: false,
             checkboxLetter: true,
             showMenu: false,
@@ -333,9 +357,22 @@
 
                 this.showMenu = true;
             },
-            buyWater() {
-                //TODO: Send info
-                //this.$store.dispatch('sendOrder', order)
+            async buyWater() {
+                await this.$store.dispatch('sendOrder',  {
+                    firstName: this.order.firstName,
+                    middleName: this.order.middleName,
+                    lastName: this.order.lastName,
+                    email: this.order.email,
+                    phone: this.order.phone,
+                    features: this.order.features,
+                    goods: this.$store.getters.orders
+                })
+
+                this.buyDialog = false;
+            },
+            async sendQuestion() {
+                await this.$store.dispatch('sendQuestion', this.question)
+                this.helpDialog = false;
             },
             deleteOrder(order) {
                 this.$store.dispatch('deleteOrder', order)

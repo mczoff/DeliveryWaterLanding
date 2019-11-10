@@ -48,7 +48,7 @@ export default {
             commit('setOrders', newOrders)
         },
         sendOrder({state, commit}, userInformation) {
-            axios.post("localhost:3000/api/orders", {
+            axios.post("http://localhost:3000/api/orders", {
                 firstName: userInformation.firstName,
                 middleName: userInformation.middleName,
                 lastName: userInformation.lastName,
@@ -57,8 +57,6 @@ export default {
                 features: userInformation.features,
                 goods: userInformation.goods
             })
-
-            commit('setOrders', newOrders)
         }
     }
 }
