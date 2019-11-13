@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c9f11b5-6963-4ac1-baf6-1c9a256dc688" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/delivery-water-landing/src/store/questions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/delivery-water-backend/api/questions.js" beforeDir="false" afterPath="$PROJECT_DIR$/delivery-water-backend/api/questions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/delivery-water-backend/config/database.js" beforeDir="false" afterPath="$PROJECT_DIR$/delivery-water-backend/config/database.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/delivery-water-backend/routes/questions.js" beforeDir="false" afterPath="$PROJECT_DIR$/delivery-water-backend/routes/questions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/delivery-water-landing/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/delivery-water-landing/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/delivery-water-landing/src/components/core/Appbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/delivery-water-landing/src/components/core/Appbar.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/delivery-water-landing/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/delivery-water-landing/src/store/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/delivery-water-landing/src/store/orders.js" beforeDir="false" afterPath="$PROJECT_DIR$/delivery-water-landing/src/store/orders.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/delivery-water-backend/config/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/delivery-water-backend/config/app.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,6 +79,16 @@
       <workItem from="1573343109224" duration="136000" />
       <workItem from="1573379752636" duration="518000" />
       <workItem from="1573398069546" duration="5012000" />
+      <workItem from="1573413448517" duration="32000" />
+      <workItem from="1573420704774" duration="626000" />
+      <workItem from="1573421784019" duration="24000" />
+      <workItem from="1573491919619" duration="2781000" />
+      <workItem from="1573507667831" duration="158000" />
+      <workItem from="1573581380731" duration="1852000" />
+      <workItem from="1573653477723" duration="2308000" />
+      <workItem from="1573658377924" duration="2000" />
+      <workItem from="1573658796771" duration="38000" />
+      <workItem from="1573683508902" duration="67000" />
     </task>
     <servers />
   </component>
