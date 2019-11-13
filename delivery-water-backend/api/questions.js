@@ -4,7 +4,7 @@ api.getAll = (Question) => (req, res) => {
     Question.find({}, (error, questions) => {
         if (error) throw error;
 
-        if (!orders)
+        if (!questions)
             res.status(401).send({ success: false, message: 'Failed.'});
         else {
             res.status(200).json({ success: true, message: 'Questions centers was received', questions: questions })

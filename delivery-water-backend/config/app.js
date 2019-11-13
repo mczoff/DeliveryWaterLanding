@@ -6,7 +6,7 @@ const express = require('express'),
     consign = require('consign'),
     cors = require('cors'),
     config = require('./index.js'),
-    database = require('./database')(mongoose, config);
+    database = require('./database')(mongoose, config)
 
 app.use(express.static('.'));
 app.use(bodyParser.urlencoded({ extended: true }));
